@@ -1,0 +1,41 @@
+{
+  "name": "proxy-box",
+  "version": "1.0.0",
+  "description": "Proxy Box is a Node.js application designed to handle requests from client apps and forward them to the specified actual server. This tool is ideal for web scraping, API request handling, and bypassing network restrictions.",
+  "keywords": [
+    "proxy",
+    "nodejs",
+    "web-scraping",
+    "api",
+    "network",
+    "requests",
+    "server",
+    "cors"
+  ],
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/sachinchillal/proxy-box/",
+  "repository": {},
+  "contributors": [
+    {
+      "name": "Sachin Chillal",
+      "email": "sachinchillal3@gmail.com",
+      "url": "https://github.com/sachinchillal/proxy-box/"
+    }
+  ],
+  "author": "Sachin Chillal <sachinchillal3@gmail.com> (https://github.com/sachinchillal/proxy-box/)",
+  "license": "(MIT OR Apache-2.0)",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "ts-node": "^10.9.2"
+  }
+}
